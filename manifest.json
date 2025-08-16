@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Notes",
+  "version": "1.0",
+  "description": "Save quick notes for web pages and view them later.",
+  "permissions": ["storage", "activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

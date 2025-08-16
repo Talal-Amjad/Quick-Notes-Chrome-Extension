@@ -1,0 +1,66 @@
+body {
+  width: 300px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+h2 {
+  font-size: 16px;
+  text-align: center;
+}
+h3 {
+  font-size: 14px;
+  margin-top: 15px;
+}
+#noteInput {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 10px;
+  resize: none;
+}
+#saveNote {
+  width: 100%;
+  padding: 8px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#saveNote:hover {
+  background-color: #45a049;
+}
+#noteList {
+  list-style: none;
+  padding: 0;
+}
+.note-item {
+  border-bottom: 1px solid #ddd;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.note-text {
+  flex-grow: 1;
+}
+.action-btn {
+  padding: 2px 8px;
+  border: none;
+  border-radius: 3px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.edit-btn {
+  background-color: #ff9800;
+  color: white;
+}
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+.copy-btn {
+  background-color: #2196f3;
+  color: white;
+}
+.action-btn:hover {
+  opacity: 0.8;
+}
